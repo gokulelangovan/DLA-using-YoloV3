@@ -8,7 +8,7 @@ import random
 net = cv2.dnn.readNet("yolov3_training_1000 (1).weights", "yolov3_testing.cfg")
 
 # Name custom object
-classes = ["table"]
+classes = ["text"]
 
 # Images path
 images_path = glob.glob(r"D:\ME - Project\PubLayNet\test\PMC6077624_00004.jpg")
